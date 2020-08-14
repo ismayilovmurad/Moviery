@@ -1,0 +1,4 @@
+# Referenced at C:\Users\frank\Downloads\RealAndroidStudioProjects\Moviery\MovieSaverApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\frank\Downloads\RealAndroidStudioProjects\Moviery\MovieSaverApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:19
+-keep class com.muradismayilov.martiandeveloper.moviesaverapp.common.tools.App { <init>(); }

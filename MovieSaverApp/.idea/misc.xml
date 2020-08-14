@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="method" FQNAME="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_movie_recycler.ProfileExpandMovieAdapter$1 void onItemClick(android.view.View v, int pos)" />
+      <entry_point TYPE="method" FQNAME="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_person_recycler.ProfileExpandPersonAdapter$1 void onItemClick(android.view.View v, int pos)" />
+      <entry_point TYPE="method" FQNAME="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_tv_recycler.ProfileExpandTvAdapter$1 void onItemClick(android.view.View v, int pos)" />
+    </entry_points>
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_model.MovieCast" method="MovieCast" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_model.MovieDetailGenre" method="MovieDetailGenre" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_model.MovieDetailProductionCompanies" method="MovieDetailProductionCompanies" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_model.MovieImage" method="MovieImage" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_model.MovieMain" method="MovieMain" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_model.MovieSimilar" method="MovieSimilar" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_model.MovieVideo" method="MovieVideo" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_response.MovieCastResponse" method="MovieCastResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_response.MovieDetailResponse" method="MovieDetailResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_response.MovieImageResponse" method="MovieImageResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_response.MovieMainResponse" method="MovieMainResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_response.MovieSimilarResponse" method="MovieSimilarResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.movie.movie_response.MovieVideoResponse" method="MovieVideoResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_model.PersonImage" method="PersonImage" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_model.PersonMain" method="PersonMain" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_model.PersonMovie" method="PersonMovie" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_model.PersonTv" method="PersonTv" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_response.PersonDetailResponse" method="PersonDetailResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_response.PersonImageResponse" method="PersonImageResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_response.PersonMainResponse" method="PersonMainResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_response.PersonMovieResponse" method="PersonMovieResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.person.person_response.PersonTvResponse" method="PersonTvResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvCast" method="TvCast" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvDetailCreatedBy" method="TvDetailCreatedBy" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvDetailGenre" method="TvDetailGenre" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvDetailLastEpisodeToAir" method="TvDetailLastEpisodeToAir" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvDetailNetworks" method="TvDetailNetworks" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvDetailNextEpisodeToAir" method="TvDetailNextEpisodeToAir" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvDetailProductionCompanies" method="TvDetailProductionCompanies" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvDetailSeasons" method="TvDetailSeasons" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvImage" method="TvImage" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvMain" method="TvMain" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvSimilar" method="TvSimilar" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_model.TvVideo" method="TvVideo" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_response.TvCastResponse" method="TvCastResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_response.TvDetailResponse" method="TvDetailResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_response.TvImageResponse" method="TvImageResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_response.TvMainResponse" method="TvMainResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_response.TvSimilarResponse" method="TvSimilarResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.tv.tv_response.TvVideoResponse" method="TvVideoResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.filter.filter_model.FilterMovie" method="FilterMovie" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.filter.filter_response.FilterMovieResponse" method="FilterMovieResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.filter.filter_model.FilterTv" method="FilterTv" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.filter.filter_response.FilterTvResponse" method="FilterTvResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.search.search_model.SearchMovie" method="SearchMovie" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.search.search_response.SearchMovieResponse" method="SearchMovieResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.search.search_model.SearchPerson" method="SearchPerson" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.search.search_response.SearchPersonResponse" method="SearchPersonResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.search.search_response.SearchTvResponse" method="SearchTvResponse" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.search.search_model.SearchTv" method="SearchTv" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_movie_recycler.ProfileExpandMovieAdapter" method="onBindViewHolder" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_movie_recycler.ProfileExpandMovieAdapter" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_person_recycler.ProfileExpandPersonAdapter" method="onBindViewHolder" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_person_recycler.ProfileExpandPersonAdapter" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_tv_recycler.ProfileExpandTvAdapter" method="onBindViewHolder" />
+    <pattern value="com.muradismayilov.martiandeveloper.moviesaverapp.profile.profile_recycler.profile_expand_tv_recycler.ProfileExpandTvAdapter" />
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="12">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="android.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="11">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="android.annotation.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Primary
+    <color name="colorPrimary">#252430</color>
+    <color name="colorPrimaryDark">#211F2A</color>
+    <color name="colorAccent">#F8C931</color>
+    // Secondary
+    <color name="colorOne">#3E3D4D</color>
+    <color name="colorTwo">#F3F4F9</color>
+    <color name="colorThree">#90252430</color>
+    <color name="colorFour">#903E3D4D</color>
+    <color name="colorFive">#2196F3</color>
+    <color name="colorError">#FF1133</color>
+    <color name="colorSuccess">#4BB543</color>
+</resources>

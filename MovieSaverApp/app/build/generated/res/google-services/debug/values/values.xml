@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">907964193944-gmvst6o43104akmt1mjt4v3l8c3gf9rl.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://moviesaverapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">907964193944</string>
+    <string name="google_api_key" translatable="false">AIzaSyDr6Qhgx6AVf3g4zC8oVUlY3Qb0eVqj4FY</string>
+    <string name="google_app_id" translatable="false">1:907964193944:android:f501964b7b956833</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDr6Qhgx6AVf3g4zC8oVUlY3Qb0eVqj4FY</string>
+    <string name="google_storage_bucket" translatable="false">moviesaverapp.appspot.com</string>
+    <string name="project_id" translatable="false">moviesaverapp</string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_buttonCL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/watchedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorTwo"
+        android:padding="8dp"
+        android:text="@string/watched"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/watchedFAB"
+        app:layout_constraintEnd_toStartOf="@id/watchedFAB"
+        app:layout_constraintTop_toTopOf="@id/watchedFAB" />
+
+    <TextView
+        android:id="@+id/watch_laterTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorTwo"
+        android:padding="8dp"
+        android:text="@string/watch_later"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/watch_laterFAB"
+        app:layout_constraintEnd_toStartOf="@id/watch_laterFAB"
+        app:layout_constraintTop_toTopOf="@id/watch_laterFAB" />
+
+    <TextView
+        android:id="@+id/favoriteTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorTwo"
+        android:padding="8dp"
+        android:text="@string/favorite"
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/favoriteFAB"
+        app:layout_constraintEnd_toStartOf="@id/favoriteFAB"
+        app:layout_constraintTop_toTopOf="@id/favoriteFAB" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/watchedFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="220dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorOne"
+        app:layout_constraintBottom_toTopOf="@id/adViewPlaceholderFL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_watched" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/watch_laterFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="150dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorOne"
+        app:layout_constraintBottom_toTopOf="@id/adViewPlaceholderFL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_watch_later" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/favoriteFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="80dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorOne"
+        app:layout_constraintBottom_toTopOf="@id/adViewPlaceholderFL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_favorite" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mainFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorOne"
+        app:layout_constraintBottom_toTopOf="@id/adViewPlaceholderFL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_add" />
+
+    <FrameLayout
+        android:id="@+id/adViewPlaceholderFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

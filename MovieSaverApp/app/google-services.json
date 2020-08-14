@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "907964193944",
+    "firebase_url": "https://moviesaverapp.firebaseio.com",
+    "project_id": "moviesaverapp",
+    "storage_bucket": "moviesaverapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907964193944:android:f501964b7b956833",
+        "android_client_info": {
+          "package_name": "com.muradismayilov.martiandeveloper.moviesaverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907964193944-drh1akjl8jiqrtip3j2kipf0d1urhich.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muradismayilov.martiandeveloper.moviesaverapp",
+            "certificate_hash": "47a28deccb8d683763ce7db9e01172954c8de05a"
+          }
+        },
+        {
+          "client_id": "907964193944-gmvst6o43104akmt1mjt4v3l8c3gf9rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr6Qhgx6AVf3g4zC8oVUlY3Qb0eVqj4FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907964193944-gmvst6o43104akmt1mjt4v3l8c3gf9rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

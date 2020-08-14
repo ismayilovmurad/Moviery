@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.muradismayilov.martiandeveloper.moviesaverapp"
+        minSdkVersion rootProject.ext.minSdkVersion
+        //noinspection OldTargetApi
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        multiDexEnabled true
+        android.defaultConfig.vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // Default
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // AppCompat
+    implementation "androidx.appcompat:appcompat:$appcompat"
+    // Test
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation "junit:junit:$junit"
+    androidTestImplementation "androidx.test:runner:$runner"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso"
+    // ConstraintLayout
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout"
+    // Firebase
+    implementation "com.google.firebase:firebase-core:$firebaseCore"
+    implementation "com.google.firebase:firebase-auth:$firebaseAuth"
+    implementation "com.google.firebase:firebase-database:$firebaseDatabase"
+    implementation "com.google.firebase:firebase-analytics:$firebaseAnalytics"
+    // Google Play Services Ads
+    implementation "com.google.android.gms:play-services-ads:$googlePlayServicesAds"
+    // Gson
+    implementation "com.google.code.gson:gson:$gson"
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    // Multidex
+    implementation "com.android.support:multidex:$multidex"
+    // Butterknife
+    implementation "com.jakewharton:butterknife:$butterknife"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$butterknife"
+    // FloatingSearchView
+    implementation "com.github.arimorty:floatingsearchview:$floatingsearchview"
+    // AutoImageSlider
+    implementation "com.github.smarteist:autoimageslider:$autoimageslider"
+    // ClearCache
+    implementation "commons-io:commons-io:$clearcache"
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide"
+    // Billing
+    implementation "com.android.billingclient:billing:$billing"
+    // AndroidYoutubePlayer
+    implementation "com.pierfrancescosoffritti.androidyoutubeplayer:core:$androidyoutubeplayer"
+}
+apply plugin: 'com.google.gms.google-services'
